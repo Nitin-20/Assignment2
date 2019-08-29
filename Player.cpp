@@ -71,7 +71,7 @@ int main()
 
 {
 
-	//Player p;
+	
 int n;
 
 cout<<"Enter the no of players you want:"<<"\t";
