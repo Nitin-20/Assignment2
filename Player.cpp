@@ -39,7 +39,7 @@ class Player
 
         for(int i=0;i<n;i++)
         {
-            for(int j=n-1;j<i;j--)
+            for(int j=n-1;j>i;j--)
 {           cout<<"j loop";
         if(parr[j].Agedata()<parr[j-1].Agedata())
         {
