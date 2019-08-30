@@ -1,3 +1,20 @@
+/*4. Create Player class with data members
+name
+age
+country
+Implement followings
+ Default constructor
+ Parameterized constructor
+ Function to Sort Array of Player objects
+(implement as global, sorting should be one
+name and age)
+ Accept Function for data input
+
+ Display function for data display
+ Separate header and implementation files
+ In main function create array of player objects
+and pass it to Sort function and print sorted
+player list*/
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -45,8 +62,8 @@ class Player
         {
         //int temp;
         Player temp = parr[j];
-        parr[j-1] = parr[j];
-        parr[j] =  temp;
+        parr[j] = parr[j-1];
+        parr[j-1] =  temp;
         }
 }
         }
